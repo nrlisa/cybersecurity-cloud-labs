@@ -1,0 +1,6 @@
+[submodule "AI"]
+	path = AI
+	url = https://github.com/nrlisa/pomodoro-sofia
+[submodule "ai/pomodoro-sofia"]
+	path = ai/pomodoro-sofia
+	url = https://github.com/nrlisa/pomodoro-sofia
