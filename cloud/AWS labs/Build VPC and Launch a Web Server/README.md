@@ -1,6 +1,4 @@
-Here is the updated, complete Markdown script for your GitHub `README.md` file. It has been rewritten to use first-person pronouns (**"me" / "I"**) so it reflects your direct personal work, and the full original code block has been included under the investigation section.
 
----
 
 ```markdown
 # Build Your VPC, Launch a Web Server & Troubleshoot Real-World Cloud Deployment Issues ☁️
