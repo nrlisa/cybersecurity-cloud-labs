@@ -55,8 +55,6 @@ Examine perimeter security policies and identify why the automated web applicati
 
 * Inbound rules configuration showing HTTP Port 80 allowed
   <div align="center"><img src="Images/task2-inbound-rules-configuration.png" alt="Inbound rules configuration" width="600"></div>
-* Web browser connection failure (`ERR_CONNECTION_REFUSED`)
-  <div align="center"><img src="Images/task2-browser-connection-failure.png" alt="Browser connection failure" width="600"></div>
 
 ---
 
@@ -134,28 +132,11 @@ sudo systemctl enable httpd
 ## Expected Screenshots
 
 * Terminal environment showing package match error and manual remediation
+<div align="center"><img src="Images/error.png"
 * Active web server daemon status confirmation (`active (running)`)
+<div align="center"><img src="Images/active.png"
 * Successfully loaded Lab Web Application webpage
-
----
-
-# ⚙️ Task 4 — Resize EC2 Instance & Resource Scaling
-
-## Objective
-
-Modify EC2 resources based on simulated changing workload requirements.
-
-## Activities
-
-* I stopped the EC2 instance cleanly to avoid data corruption.
-* I modified instance type attributes from `t3.micro` to `t3.small` to scale compute resources.
-* I restarted the instance and verified system integrity post-scaling.
-
-## Expected Screenshots
-
-* Stop instance page
-* Change instance type window
-
+<div align="center"><img src="Images/success.png"
 ---
 
 # 🧠 Skills Gained
@@ -163,14 +144,8 @@ Modify EC2 resources based on simulated changing workload requirements.
 * **Cloud Infrastructure & Architecture Design:** Provisioning custom VPC environments, manipulating subnetting boundaries (`/24`), and establishing route propagation rules via Internet Gateways.
 * **Systems Diagnostic & Incident Response:** Inspecting OS system daemons via terminal tools, reading package manager error codes, and isolating deployment automation failures.
 * **Perimeter Network Security:** Creating Security Groups, managing stateful firewalls, and debugging protocol communications (HTTP Port 80 vs SSH Port 22).
-* **Agile Resource Scaling:** Managing cloud computing lifecycles by executing instance changes to scale performance profiles vertically.
-
 ---
 
 # ✅ Conclusion
 
-This lab demonstrated that automation scripts (such as EC2 User Data) are highly vulnerable to breaking changes if upstream package repositories shift. True cloud security and infrastructure competence relies heavily on low-level system diagnostic skills—understanding how to pivot to a terminal interface, investigate system logs, analyze failure vectors, and manually force structural recovery to achieve target operational readiness.
-
-```
-
-```
+This lab demonstrated that automation scripts (such as EC2 User Data) are highly vulnerable to breaking changes if upstream package repositories shift. True cloud security and infrastructure competence relies heavily on low-level system diagnostic skills—understanding how to pivot to a terminal interface, investigate system logs, analyze failure vectors and manually force structural recovery to achieve target operational readiness.
